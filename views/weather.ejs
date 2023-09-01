@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <h1>Weather in <%= location %></h1>
+        <p>
+            Temperature: <%= temperature %> degrees.
+        </p>
+        <p>
+            Rain: <%= rain %> mm.
+        </p>
+        <p>
+            Humidity: <%= humidity %>%.
+        </p>
+        <p>
+            Wind direction: <%= windDirection %> degrees.
+        </p>
+        <p>
+            Wind Speed: <%= windSpeed %> m/s.
+        </p>
+        <p>
+            Gust Speed: <%= gustSpeed %> m/s.
+        </p>
+        <img src="icons/<%= symbol %>.png" alt="Symbol: <%= symbol %>" />
+    </main>
+</body>
+</html>

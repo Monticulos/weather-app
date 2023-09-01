@@ -1,5 +1,7 @@
 # weather-app
 
+_Please note: this app only works for nordic countries._
+
 This code is a Node.js application built using the Express framework to create a web server. It serves a weather-related web application that allows users to search for weather information based on a location. Here's a breakdown of what this code does:
 
 It imports necessary modules including Express, Axios for making HTTP requests, Body Parser for parsing form data, and 'dotenv' for managing environment variables.
